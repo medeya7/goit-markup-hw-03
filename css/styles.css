@@ -289,6 +289,7 @@ img {
 }
 
 .description-list {
+    
     display: flex;
     gap: 24px; 
 }
@@ -299,7 +300,8 @@ img {
 }
 
 .description-item {
-    width: calc((100% - 3 * 24px) / 4);
+    
+    width: calc((100%-(24px*3))/4);
 }
 
 /* DOING */
@@ -313,9 +315,7 @@ img {
 
 /* OUR TEAM */
 
-.container {
-    border-radius: 0px 0px 4px 4px;
-}
+
 
 .our-team {
     background-color: var(--cloud);
@@ -338,6 +338,7 @@ img {
 }
 
 .team-wrapper {
+     border-radius: 0px 0px 4px 4px;
      padding: 32px 16px;
      text-align: center;
 }
@@ -401,7 +402,7 @@ img {
     color: var(--white);
     background: var(--ocean);
     color: var(--white);
-    border: 1px solid 
+    border: 1px solid transparent;
 
 }
 
@@ -429,7 +430,8 @@ img {
 
 .team-wrapper-portfolio {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc; 
+    border: 1px solid var(--mood); 
+    border-top: none; 
 
 }
 
