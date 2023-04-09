@@ -49,6 +49,8 @@ img {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px; 
+    padding-right: 15px;
     
 }
 
@@ -123,8 +125,8 @@ img {
 .img-item {
     width: 360px;
     height: 300px;
+    width: calc((100% - 3 * 16px) / 3);
    
-
 }
 
 
@@ -333,8 +335,7 @@ img {
 .img-team-item {
     width: 264px;
     background-color: var(--white);
-    width: calc((100% - (24px * 4)) / 5);
-    
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-wrapper {
