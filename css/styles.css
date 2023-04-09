@@ -233,7 +233,7 @@ img {
  /* HERO */
 
  .hero-section {
-    /* padding: 188px 472px 292px 472px; */
+  
     padding-top: 188px; 
     padding-bottom: 188px;
  }
@@ -251,7 +251,7 @@ img {
     text-align: center;
     color: var(--white);  
     margin-bottom: 48px;
-    max-width: 496px; 
+    max-width: 496px;  
  }
 
 
@@ -290,7 +290,6 @@ img {
 }
 
 .description-list {
-    width: calc((100%-(24px*3))/4);
     
     display: flex;
     gap: 24px; 
@@ -304,7 +303,7 @@ img {
 .description-item {
     width: calc((100% - 72px) / 4);
 
-}
+} 
 
 /* DOING */
  .img-list {
