@@ -131,8 +131,8 @@ img {
 
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 120px; 
+  
 }
 
 
@@ -153,8 +153,7 @@ img {
     
     margin-right: 76px;
     display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
+   
     
 }
 
@@ -215,7 +214,6 @@ img {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-right: 40px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -293,6 +291,7 @@ img {
 }
 
 .description-list {
+
     
     display: flex;
     gap: 24px; 
