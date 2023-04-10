@@ -306,6 +306,10 @@ img {
 } 
 
 /* DOING */
+.text {
+    padding-bottom: 120px;
+}
+
  .img-list {
     display: flex;
     flex-wrap: wrap;
